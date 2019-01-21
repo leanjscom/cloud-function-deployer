@@ -17,4 +17,4 @@ For more information, see the [Upmentoring Google Cloud Proof of Concept](https:
 
 To use this module, simply add it your project using `npm install --save`, and then `import` it into the relevant file, and use the `deploy` function where desired to deploy the function.
 
-One way to use this, is to run the `deploy` function in response to command line arguments.  See the `examples' directory for an example.
+One way to use this, is to run the `deploy` function in response to command line arguments.  See the `examples` directory for an example.
