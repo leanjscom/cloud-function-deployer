@@ -1,14 +1,13 @@
-# Example Pub/Sub function
+# Define and deploy
 
 ## Introduction
 
-The purpose of this repository is to demo how you could use the [cloud function deployer](https://github.com/leanjscom/cloud-function-deployer) and [upmentoring pub/sub](https://github.com/leanjscom/upmentoring-pubsub) libraries to define a cloud function and deploy it to google cloud.
+This shows how you could use the 'deploy' function to deploy a cloud function based on command line arguments
 
-It is designed to be used as a reference when setting up other cloud functions, rather than imported into a different project and used as a library.
 
 ## Prerequisites
 
-To deploy cloud functions, you need to have the [Google Cloud CLI](https://cloud.google.com/sdk/) installed, configured to point to the Google Cloud project that you are deploying the functions to, and logged into an appropriate Google Account (i.e. one with permissions to deploy functions to the target project).
+To try this out, you need to have the [Google Cloud CLI](https://cloud.google.com/sdk/) installed, configured to point to the Google Cloud project that you are deploying the functions to, and logged into an appropriate Google Account (i.e. one with permissions to deploy functions to the target project).
 
 For more information, see the [Upmentoring Google Cloud Proof of Concept](https://github.com/leanjscom/upmentoring-gcloud-poc).
 
