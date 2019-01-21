@@ -27,7 +27,7 @@ The key things to notice about it are:
   2.  the configuration of the cloud function
   3.  the function itself.
 
-- The actual deployment is done, late in the file, by the `deploy` function, which is imported from [cloud function deployer](https://github.com/leanjscom/cloud-function-deployer).
+- The actual deployment is done, late in the file, by the `deploy` function
 
 ### package.json
 
