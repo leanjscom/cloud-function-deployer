@@ -1,0 +1,17 @@
+{
+  "name": "upmentoring-demo-pub-sub-function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leanjscom/upmentoring-demo-pub-sub-function.git",
+  "author": "Will Voelcker <wvoelcker@yahoo.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "cloud-function-deployer": "file:cloud-function-deployer-1.0.0.tgz",
+    "shelljs": "^0.8.3",
+    "upmentoring-pub-sub-topics": "file:upmentoring-pub-sub-topics-1.0.0.tgz"
+  },
+  "scripts": {
+    "build": "npm pack leanjscom/upmentoring-pub-sub-topics && npm install --save upmentoring-pub-sub-topics-1.0.0.tgz && npm pack leanjscom/cloud-function-deployer && npm install --save cloud-function-deployer-1.0.0.tgz",
+    "deploy": "node index.js deploy"
+  }
+}
