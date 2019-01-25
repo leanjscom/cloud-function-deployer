@@ -23,6 +23,8 @@ One way to use this, is to run the `deploy` function in response to command line
 ## Example
 
 ```
+import { deploy } from 'cloud-function-deployer'
+
 const topics = {
 	new_booking: 'NEWBOOKING',
 	cancellation: 'CANCELLATION'
