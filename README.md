@@ -10,8 +10,6 @@ This is designed to facilitate the process of deploying Google Cloud Functions. 
 
 To deploy cloud functions, you need to have the [Google Cloud CLI](https://cloud.google.com/sdk/) installed, configured to point to the Google Cloud project that you are deploying the functions to, and logged into an appropriate Google Account (i.e. one with permissions to deploy functions to the target project).
 
-For more information, see the [Upmentoring Google Cloud Proof of Concept](https://github.com/leanjscom/upmentoring-gcloud-poc).
-
 
 ## Get started
 
