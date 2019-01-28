@@ -6,12 +6,13 @@
   "author": "Will Voelcker <wvoelcker@yahoo.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "cloud-function-deployer": "file:cloud-function-deployer-1.0.0.tgz",
+    "cloud-function-deployer": "github:leanjscom/cloud-function-deployer",
+    "commander": "^2.19.0",
     "shelljs": "^0.8.3",
-    "upmentoring-pub-sub-topics": "file:upmentoring-pub-sub-topics-1.0.0.tgz"
+    "upmentoring-pubsub": "file:upmentoring-pubsub-1.0.0.tgz"
   },
   "scripts": {
-    "build": "npm pack leanjscom/upmentoring-pub-sub-topics && npm install --save upmentoring-pub-sub-topics-1.0.0.tgz && npm pack leanjscom/cloud-function-deployer && npm install --save cloud-function-deployer-1.0.0.tgz",
-    "deploy": "node index.js deploy"
+    "build": "npm pack leanjscom/upmentoring-pubsub && npm install --save upmentoring-pubsub-1.0.0.tgz",
+    "deploy": "node index.js --deploy"
   }
 }
